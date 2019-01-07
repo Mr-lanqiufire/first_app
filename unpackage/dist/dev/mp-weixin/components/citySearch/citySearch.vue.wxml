@@ -1,0 +1,23 @@
+<template name="09572d3a">
+  <view class="_view data-v-4e121cdc content clearfix">
+    <view class="_view data-v-4e121cdc left fl">
+      <view class="_view data-v-4e121cdc cityTop">
+        <view class="_view data-v-4e121cdc nowCity p20 fz_30 border_bottom">当前:上海</view>
+        <view class="_view data-v-4e121cdc lately p20 fz_30">定位/最近访问</view>
+        <view class="_view data-v-4e121cdc lately_children p20"></view>
+        <view class="_view data-v-4e121cdc fz_30 p20">热门城市</view>
+        <view class="_view data-v-4e121cdc hots tc border_bottom p_bottom" wx:if="{{item.title=='热门城市'}}" wx:key="item.type" key="{{item.type}}" wx:for="{{cityAll}}" wx:for-index="itemIndex" wx:for-item="item">
+          <view class="_view data-v-4e121cdc hotCity" wx:key="it.key" key="{{it.key}}" wx:for="{{item.item}}" wx:for-index="itIndex" wx:for-item="it">{{it.name}}</view>
+        </view>
+      </view>
+      <view class="_view data-v-4e121cdc allCity p20">所有城市</view>
+      <view class="_view data-v-4e121cdc allCityList" wx:key="item.title" key="{{item.title}}" wx:if="{{item.title!='热门城市'}}" wx:for="{{cityAll}}" wx:for-index="itemIndex" wx:for-item="item">
+        <view class="_view data-v-4e121cdc cityTitle ">{{item.title}}</view>
+        <view class="_view data-v-4e121cdc everyCity m20 border_bottom" wx:key="it.key" key="{{it.key}}" wx:for="{{item.item}}" wx:for-index="itIndex" wx:for-item="it">{{it.name}}</view>
+      </view>
+    </view>
+    <view class="_view data-v-4e121cdc right p20 fr fz_25">
+      <view wx:key="item" key="{{item}}" wx:for="{{cityTitle}}" wx:for-index="index" wx:for-item="item" class="_view data-v-4e121cdc">{{item}}</view>
+    </view>
+  </view>
+</template>
