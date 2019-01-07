@@ -1,6 +1,6 @@
 <template name="4609547b">
   <view class="_view data-v-ca370ec6">
-    <view class="_view data-v-ca370ec6 list-cell" hover-class="uni-list-cell-hover" bindtap="handleProxy" data-eventid="{{'neB-1'}}" data-comkey="{{$k}}">
+    <view class="_view data-v-ca370ec6 list-cell" hover-class="uni-list-cell-hover" bindtap="handleProxy" data-eventid="{{'tRh-1'}}" data-comkey="{{$k}}">
       <view class="_view data-v-ca370ec6 media-list" wx:if="{{data.title}}">
         <view class="_view data-v-ca370ec6 {{[isImgRight ? 'media-image-right' : '', isImgLeft ? 'media-image-left' : '']}}">
           <text class="_text data-v-ca370ec6 {{['media-title', isImgRight || isImgLeft ? 'media-title2' : '']}}">{{data.title}}</text>
@@ -15,7 +15,7 @@
             <text class="_text data-v-ca370ec6 info-text">{{data.comment_count}}条评论</text>
             <text class="_text data-v-ca370ec6 info-text">{{data.datetime}}</text>
           </view>
-          <view class="_view data-v-ca370ec6 max-close-view" catchtap="handleProxy" data-eventid="{{'dU2-0'}}" data-comkey="{{$k}}">
+          <view class="_view data-v-ca370ec6 max-close-view" catchtap="handleProxy" data-eventid="{{'9yH-0'}}" data-comkey="{{$k}}">
             <view class="_view data-v-ca370ec6 close-view">
               <text class="_text data-v-ca370ec6 close">×</text>
             </view>

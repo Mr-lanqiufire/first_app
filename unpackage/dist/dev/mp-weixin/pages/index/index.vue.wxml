@@ -4,7 +4,7 @@
     <view class="_view data-v-6d0504fe header d_fl a_c ">
       <view class="_view data-v-6d0504fe location fl">
         <view class="_view data-v-6d0504fe locationName fz_26">上海海边沙子上的蚂蚁</view>
-        <template type="arrowdown" size="15" data="{{...$root['0'], ...$root[$kk+'ZRj-0'],$root}}" is="26e1ec4c"></template>
+        <template type="arrowdown" size="15" data="{{...$root['0'], ...$root[$kk+'Paa-0'],$root}}" is="26e1ec4c"></template>
       </view>
       <view class="_view data-v-6d0504fe input fr">
         <view class="_view data-v-6d0504fe search">
@@ -20,7 +20,7 @@
     </swiper>
     <view class="_view data-v-6d0504fe types d_fl">
       <view id="{{index}}" wx:key="index" key="{{index}}" class="_view data-v-6d0504fe tc" wx:for="{{types}}" wx:for-index="index" wx:for-item="item">
-        <view class="_view data-v-6d0504fe bg_cc d_fl a_c j_c" bindtap="handleProxy" data-eventid="{{'PzS-0-'+index}}" data-comkey="{{$k}}">
+        <view class="_view data-v-6d0504fe bg_cc d_fl a_c j_c" bindtap="handleProxy" data-eventid="{{'bpo-0-'+index}}" data-comkey="{{$k}}">
           <image src="{{item.src}}" mode class="_image data-v-6d0504fe"></image>
         </view>
         <text class="_text data-v-6d0504fe fz_25">{{item.name}}</text>
